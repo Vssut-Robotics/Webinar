@@ -58,7 +58,10 @@ function check() {
       college: college.value,
       branch: branch.value,
     });
-    alert("Thanks for participating. Have a good day!! ");
+    alert(
+      "Thank you for registration.\n Click 'OK' to join our WhatsApp Group for updates. \n Have a good day! "
+    );
+    window.open("https://chat.whatsapp.com/JQHEi3W0OQfEW6Jgg49eUI");
 
     document.getElementById("register-form").submit();
     document.getElementById("register-form").reset();
