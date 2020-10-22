@@ -50,7 +50,7 @@ function check() {
   }
 
   if (x == 5) {
-    database.ref("/WEBINAR").push().set({
+    database.ref("/Webinar_Muskan").push().set({
       name1: firstname.value,
       name2: lastname.value,
       phone: phone.value,
